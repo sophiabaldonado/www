@@ -1,0 +1,41 @@
+html {
+    background-color: #f9f9f9;
+    font-family: 'Rubik', sans-serif;
+    font-size: 11px;
+    color: #616060;
+}
+
+article {
+    padding: 5em 15em;
+}
+
+section {
+    width: 50%;
+}
+
+a {
+    color: #8b3fcc;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a68abd;
+}
+
+.portrait {
+    border-radius: 50%;
+}
+
+.divider {
+    width: 50%;
+    height: 1px;
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    margin-left: 5em auto;
+}
+
+.lead-sentence {
+    font-weight: bolder;
+    color: #4c4c4c;
+}
