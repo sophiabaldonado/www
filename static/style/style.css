@@ -1,41 +1,56 @@
 html {
-    background-color: #f9f9f9;
-    font-family: 'Rubik', sans-serif;
-    font-size: 11px;
-    color: #616060;
+  background-color: #f9f9f9;
+  font-family: 'Rubik', sans-serif;
+  font-size: 11px;
+  color: #616060;
 }
 
 article {
-    padding: 5em 15em;
-}
-
-section {
-    width: 50%;
+	display: flex;
+  padding: 1em 15em;
+	justify-content: space-between;
+	flex-flow: row wrap;
 }
 
 a {
-    color: #8b3fcc;
-    cursor: pointer;
-    text-decoration: none;
+  color: #8b3fcc;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #a68abd;
+  color: #a68abd;
+}
+
+header {
+	flex: 1 100%;
+}
+
+.social a {
+	margin-right: .5em;
+}
+
+.main {
+	width: 50%;
 }
 
 .portrait {
-    border-radius: 50%;
-}
-
-.divider {
-    width: 50%;
-    height: 1px;
-    background-color: #ddd;
-    border: 1px solid #ddd;
-    margin-left: 5em auto;
+  border-radius: 50%;
 }
 
 .lead-sentence {
-    font-weight: bolder;
-    color: #4c4c4c;
+  font-weight: bolder;
+  color: #4c4c4c;
+}
+
+.sidebar {
+	width: 40%;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
+  border: 1px solid #ddd;
+  margin-top: 2em;
 }
